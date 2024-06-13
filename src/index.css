@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color: rgb(245, 245, 245);
+}
+
+@layer base {
+  .fade-out {
+    @apply transition  hover:hover:scale-x-105 hover:scale-y-105 delay-100;
+  }
+}
