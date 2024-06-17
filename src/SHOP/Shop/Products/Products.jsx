@@ -5,7 +5,7 @@ import Card2 from "./Card2/Card2";
 
 // Products Function
 
-function Products() {
+function Products({ result }) {
   return (
     <>
       <div className="container p-4 mx-auto">

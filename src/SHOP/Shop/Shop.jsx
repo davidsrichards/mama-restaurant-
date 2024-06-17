@@ -6,14 +6,19 @@ import Products from "./Products/Products";
 import SideBar from "./SideBar/SideBar";
 // Shop Function
 
-function Shop() {
+function Shop({ handleInput, query, handleClick, handlePriceFunction }) {
   return (
     <>
       <ShopNavigation />
       <div className=" w-full h-screen  mt-[15rem] grid lg:grid-cols-12 bg-white">
         {/*  */}
         <div className=" col-span-3  bg-white lg:block hidden">
-          <SideBar />
+          <SideBar
+            handleInput={handleInput}
+            query={query}
+            handleClick={handleClick}
+            handlePriceFunction={handlePriceFunction}
+          />
         </div>
         <div className="col-span-9   bg-white">
           <Products />

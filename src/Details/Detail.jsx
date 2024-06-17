@@ -22,8 +22,8 @@ function Detail() {
           <Card4 />
           <Card5 />
           <Card6 />
-          <Card7 />
         </div>
+        <Card7 />
       </div>
     </>
   );

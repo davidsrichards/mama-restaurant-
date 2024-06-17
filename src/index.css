@@ -11,6 +11,23 @@ body {
 
 @layer base {
   .fade-out {
-    @apply transition  hover:hover:scale-x-105 hover:scale-y-105 delay-100;
+    @apply transition  hover:hover:scale-x-105 hover:scale-y-105 delay-200;
+  }
+}
+
+.op {
+  animation: op linear forwards;
+  animation-timeline: view();
+}
+
+@keyframes op {
+  from {
+    scale: 0;
+    opacity: 0;
+    display: none;
+  }
+  20% {
+    scale: 1;
+    opacity: 2;
   }
 }

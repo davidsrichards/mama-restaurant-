@@ -7,9 +7,7 @@ import Card9 from "../../LandingPage/Card9/Card9";
 function Card7() {
   return (
     <>
-      <div>
-        <Card9 />
-      </div>
+      <Card9 />
     </>
   );
 }

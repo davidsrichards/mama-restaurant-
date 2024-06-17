@@ -1,13 +1,14 @@
 // Importing Modules
 
-// CAard4 Input Function
+// Cart2Details Function
 
-function Card4Input() {
+function Cardt2Detail() {
   return (
     <>
+      {" "}
       <div className="flex flex-col items-start justify-center mt-[3rem]">
         <label>
-          Your review <span>*</span>
+          Your location <span>*</span>
         </label>
         <textarea className="outline-none w-full pb-[10rem] ring-1 ring-slate-200 rounded-lg focus:ring-default container p-4" />
       </div>
@@ -23,10 +24,10 @@ function Card4Input() {
         </div>
         <div className="flex flex-col items-start w-full">
           <label>
-            Email <span className="text-default">*</span>
+            Phone <span className="text-default">*</span>
           </label>
           <input
-            type="email"
+            type="number"
             className="outline-none ring-1 ring-slate-200 rounded-sm focus:ring-default w-full h-[2.5rem] container p-4"
           />
         </div>
@@ -37,15 +38,12 @@ function Card4Input() {
           className="p-4 w-[1rem] h-[1rem] accent-blue-400"
         />
         <span>
-          Save my name, email, and website in this browser for the next time I
+          Save my name, phone, and website in this browser for the next time I
           comment.
         </span>
       </div>
-      <button className="mt-4 bg-sideBtn w-[9rem] h-[3rem] flex items-center justify-center font-bold text-[1.3rem] rounded-lg hover:text-white">
-        Submit
-      </button>
     </>
   );
 }
 
-export default Card4Input;
+export default Cardt2Detail;

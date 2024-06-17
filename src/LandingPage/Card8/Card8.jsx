@@ -7,45 +7,45 @@ function Card8() {
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/3.jpg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
 
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/4.jpg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
 
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/5.jpg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/1.jpg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/2.jpg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.15-AM-1.jpeg"
           alt=""
-          className=" fade-out"
+          className=" fade-out op"
         />
 
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.15-AM.jpeg"
           alt=""
-          className="fade-out"
+          className="fade-out op"
         />
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.18-AM.jpeg"
           alt=""
-          className="w-full fade-out"
+          className="w-full fade-out op"
         />
       </div>
     </>

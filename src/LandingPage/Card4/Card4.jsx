@@ -11,7 +11,7 @@ import GlobalCard4 from "./GlobalCard4/GlobalCard4";
 function Card4() {
   return (
     <>
-      <div className=" lg:-mt-[65rem] grid lg:grid-cols-3 w-full container mx-auto gap-10 mt-[5rem] grid-cols-1 lg:p-0 p-4 ">
+      <div className="lg:-mt-[65rem] grid lg:grid-cols-3 w-full container mx-auto gap-10 mt-[5rem] grid-cols-1 lg:p-0 p-4 ">
         <GlobalCard4
           icon={<FaWhatsapp className="text-[6rem]" />}
           first="ORDER"

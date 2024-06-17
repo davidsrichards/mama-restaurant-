@@ -15,7 +15,7 @@ import { FaInstagram } from "react-icons/fa";
 function Social() {
   return (
     <>
-      <div className="flex items-center space-x-2 text-white">
+      <div className="flex items-center gap-2 text-white justify-center relative top-1 xl:visible invisible">
         <a
           href="#"
           className=" bg-default p-1 rounded-full flex items-center justify-center"

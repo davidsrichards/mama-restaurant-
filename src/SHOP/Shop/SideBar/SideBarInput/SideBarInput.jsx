@@ -1,8 +1,13 @@
-function SideBarInput() {
+import { useContext } from "react";
+import ShopContextApi from "../../../ShopContextApi/ShopContextApi";
+
+function SideBarInput({ handleInput, query }) {
   return (
     <>
       <div className="grid grid-cols-12 container p-0 mx-auto">
         <input
+          value={query}
+          onChange={handleInput}
           type="text"
           placeholder="Search Products..."
           className="bg-sideColor col-span-8 py-5 text-[1.1rem] rounded-l-lg outline-none container p-4 text-slate-500"

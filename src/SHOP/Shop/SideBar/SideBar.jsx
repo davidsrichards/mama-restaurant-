@@ -9,15 +9,15 @@ import SideBarInput from "./SideBarInput/SideBarInput";
 
 // SideBar Function
 
-function SideBar() {
+function SideBar({ handleInput, query, handleClick, handlePriceFunction }) {
   return (
     <>
       <div className="container p-4 lg:block hidden mx-auto">
-        <SideBarInput />
-        <Card1 />
-        <Card2 />
+        <SideBarInput handleInput={handleInput} query={query} />
+        <Card1 handleClick={handleClick} />
+        <Card2 handlePriceFunction={handlePriceFunction} />
         <Card4 />
-        <Card5 />
+        <Card5 handleClick={handleClick} />
       </div>
     </>
   );

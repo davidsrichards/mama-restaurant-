@@ -15,21 +15,28 @@ import SuperCombo from "./NavigationItems/SuperCombo";
 function NavigationBar() {
   return (
     <>
-      <nav className=" fixed top-0 min-w-full container p-8 flex items-center justify-around bg-white z-50 border">
-        <img src={image} alt="" className="w-[6rem] cursor-pointer" />
+      <nav className=" fixed top-0 min-w-full container p-8 flex items-center justify-around bg-white z-50 border h-[8rem]">
+        <img
+          src={image}
+          alt=""
+          className="w-[6rem] cursor-pointer absolute left-8"
+        />
         <MobileButton />
-        <div className="w-ful  flex items-center justify-center space-x-10 text-[1.6rem] font-bold text-default lg:visible invisible">
-          <Home />
-          <About />
-          <Menu />
-          <SuperCombo />
-          <Contact />
+        <div className="text-[1.3rem] font-bold text-default lg:block hidden">
+          <div className="flex gap-8 relative right-8">
+            <div className="flex gap-10">
+              <Home />
+              <About />
+              <Menu />
+              <SuperCombo />
+              <Contact />
+            </div>
+            <Social />
+          </div>
         </div>
         {/*  */}
-        <div className="flex items-center justify-center space-x-6 lg:visible invisible">
-          <Social />
-          <Button />
-        </div>
+
+        <Button />
       </nav>
     </>
   );

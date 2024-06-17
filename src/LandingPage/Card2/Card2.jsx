@@ -5,33 +5,33 @@ function Card2() {
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.15-AM-1.jpeg"
           alt=""
-          className="col-span-5 rounded-lg transition hover:-translate-x-8  delay-100"
+          className="col-span-5 rounded-lg transition hover:-translate-x-8  delay-100 op"
         />
         {/*  */}
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/MAMA-CASS-RESTAURANT-3.jpeg"
           alt=""
-          className=" col-span-5 rounded-lg fade-out"
+          className=" col-span-5 rounded-lg fade-out op sec"
         />
         {/*  */}
 
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/12/MAMA-CASS-BANNER.jpg"
           alt=""
-          className="col-span-2 rounded-lg transition hover:scale-x-90 hover:scale-y-90 delay-100"
+          className="col-span-2 rounded-lg transition hover:scale-x-90 hover:scale-y-90 delay-100 op"
         />
         {/*  */}
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.17-AM-1.jpeg"
           alt=""
-          className="col-span-5 col-start-6  relative lg:-top-[20rem] h-[19rem] w-full object-cover rounded-lg fade-out"
+          className="col-span-5 col-start-6  relative lg:-top-[17.6rem] h-[16.5rem] w-full object-cover rounded-lg fade-out op"
         />
         {/*  */}
       </div>
 
       {/* Mobile */}
 
-      <div className="-mt-[24rem] grid  gap-4 container mx-auto p-2 lg:invisible visible">
+      <div className="-mt-[24rem] grid  gap-4 container mx-auto p-4 lg:invisible visible">
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.15-AM-1.jpeg"
           alt=""
@@ -41,20 +41,20 @@ function Card2() {
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/MAMA-CASS-RESTAURANT-3.jpeg"
           alt=""
-          className=" h-[19rem] w-full object-cover rounded-lg fade-out"
+          className=" h-[19rem] w-full object-cover rounded-lg fade-out op"
         />
         {/*  */}
 
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/12/MAMA-CASS-BANNER.jpg"
           alt=""
-          className=" h-[19rem] w-full object-cover rounded-lg fade-out "
+          className=" h-[19rem] w-full object-cover rounded-lg fade-out op "
         />
         {/*  */}
         <img
           src="https://mamacassng.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-25-at-10.41.17-AM-1.jpeg"
           alt=""
-          className=" h-[19rem] w-full object-cover rounded-lg fade-out"
+          className=" h-[19rem] w-full object-cover rounded-lg fade-out op"
         />
         {/*  */}
       </div>
